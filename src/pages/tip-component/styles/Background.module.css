@@ -1,0 +1,16 @@
+.backgroundCard {
+  background-color: hsl(185, 41%, 84%);
+  min-height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 820px) {
+  .backgroundCard {
+    background-color: hsl(185, 41%, 84%);
+    padding-bottom: 50px;
+  }
+}

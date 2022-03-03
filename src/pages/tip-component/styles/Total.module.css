@@ -1,0 +1,23 @@
+.part {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.total {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 30px;
+  max-width: 150px;
+  align-items: flex-end;
+  color: hsl(172, 67%, 45%);
+  font-size: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.textArea {
+  display: flex;
+  flex-direction: column;
+}

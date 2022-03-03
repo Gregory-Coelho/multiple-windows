@@ -1,0 +1,33 @@
+.selector {
+  background-color: hsl(183, 100%, 15%);
+  height: 50px;
+  width: 110px;
+  color: white;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  flex-direction: row;
+  gap: 10px 10px;
+}
+
+.focus {
+  background-color: hsl(172, 67%, 45%);
+  height: 50px;
+  width: 110px;
+  color: hsl(183, 100%, 15%);
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  flex-direction: row;
+  gap: 10px 10px;
+}
+@media (max-width: 820px) {
+  .selector {
+    height: 40px;
+    width: 150px;
+  }
+  .focus {
+    height: 40px;
+    width: 150px;
+  }
+}
