@@ -7,6 +7,7 @@ function App() {
   const home = () => {
     return <h2>Home</h2>;
   };
+
   return (
     <BrowserRouter>
       <div>
@@ -25,9 +26,9 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={home} />
-          <Route path="/tip-calculator" element={RenderTip} />
-          <Route path="/interactive-pricing" element={RenderPrice} />
+          <Route path="/" element={home()} />
+          <Route path="/tip-calculator" element={<RenderTip />} />
+          <Route path="/interactive-pricing" element={<RenderPrice />} />
         </Routes>
       </div>
     </BrowserRouter>

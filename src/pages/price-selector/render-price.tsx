@@ -1,10 +1,10 @@
 import { Background } from "./components/Background";
 import { TitleAndCard } from "./components/TitleAndCard";
-import "./styles/Global.css";
+import styles from "./styles/Global.module.css";
 
 function RenderPrice() {
   return (
-    <div>
+    <div className={styles.root}>
       <Background>
         <TitleAndCard />
       </Background>
