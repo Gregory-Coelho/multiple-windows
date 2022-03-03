@@ -2,9 +2,9 @@ import { Background } from "./components/Background";
 import { TitleAndCard } from "./components/TitleAndCard";
 import "./styles/Global.css";
 
-function App() {
+function RenderPrice() {
   return (
-    <div className="App">
+    <div>
       <Background>
         <TitleAndCard />
       </Background>
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default RenderPrice;

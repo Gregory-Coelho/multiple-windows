@@ -2,7 +2,7 @@ import { Background } from "./components/Background";
 import { Calculator } from "./components/Calculator";
 import "./styles/Global.css";
 
-const App = () => {
+const RenderTip = () => {
   return (
     <Background>
       <h1>
@@ -13,4 +13,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default RenderTip;
