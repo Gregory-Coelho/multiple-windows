@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  padding: 50px;
+  background: no-repeat center url("../assets/pattern-circles.svg");
+}
+.circle {
+  position: relative;
+  top: -120px;
+}

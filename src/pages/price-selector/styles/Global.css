@@ -1,0 +1,30 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+body {
+  margin: 0px;
+}
+h1 {
+  font-weight: 600;
+  margin: 0px 0px 10px 0px;
+  color: hsl(227, 35%, 25%);
+}
+h2 {
+  font-weight: 600;
+  margin: 0px;
+  font-size: 16px;
+  color: hsl(225, 20%, 60%);
+}
+h3 {
+  color: hsl(225, 20%, 60%);
+}
+h4 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  color: hsl(225, 20%, 60%);
+  font-size: 15px;
+  margin: 5px 0px 5px 0px;
+}
