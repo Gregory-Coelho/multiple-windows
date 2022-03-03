@@ -1,0 +1,12 @@
+.navBar {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+}
+
+.pageComponent {
+  width: 100vw;
+  height: 100vh;
+
+  position: absolute;
+}
