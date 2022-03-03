@@ -15,13 +15,12 @@ export const Card = () => {
           <h3>/ month</h3>
         </div>
       </div>
-      <div>
+      <div className={styles.slideBar}>
         <input
           type="range"
           min="0"
           max="100"
           style={{ backgroundSize: `${value}%` }}
-          className={styles.slideBar}
           value={value}
           onChange={(e) => {
             setValue(e.target.value + ".00");
@@ -41,7 +40,7 @@ export const Card = () => {
           <span className={styles.slider}></span>
         </label>
         <p>Yearly Billing</p>
-        <p className={styles.discount}>25% discount</p>
+        <h5 className={styles.discount}>25% discount</h5>
       </div>
       <div className={styles.line}></div>
       <div className={styles.botCard}>
